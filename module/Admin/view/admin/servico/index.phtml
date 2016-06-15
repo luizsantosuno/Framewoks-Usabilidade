@@ -1,0 +1,47 @@
+<h1>Servico Index</h1>
+
+
+<a href="/admin/servico/create" class="btn btn-primary">Novo Serviço</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                taxa
+            </th>
+            <th>
+                hora
+            </th>
+            <th>
+                especificacao
+            </th>
+            <th>
+                Editar
+            </th>
+            <th>
+                Remover
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($servicos as $servico) { ?>
+            <tr>
+                <td>
+                    <?= $servico->taxa ?>
+                </td>
+                <td>
+                    <?= $servico->hora ?>
+                </td>
+                <td>
+                    <?= $servico->especificacao ?>
+                </td>
+                <td>
+                    <a href="/admin/servico/update/id/<?= $servico->id; ?>"><i class="glyphicon glyphicon-edit"></i></a>
+                </td>
+                <td>
+                    <a href="/admin/servico/delete/id/<?= $servico->id; ?>"><i class="glyphicon glyphicon-trash"></i></a>
+                </td>
+            </tr>
+        <?php } ?>
+    </tbody>
+</table>

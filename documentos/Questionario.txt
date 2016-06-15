@@ -1,0 +1,77 @@
+Cadastro:
+
+	Quanto ao cadastro de usuários que informações devem ser passadas?
+		Resposta: Integração com o facebook, Nome, e-mail, senha. (validados)
+
+	Quais dessas informações são obrigatórias o preenchimento para venda? 
+		Resposta: Integrar com o paypal, boleto(verificar).
+
+	Quais os tipos de usários devem existir?
+		Resposta: Administrador e Cliente.
+
+Produto:
+
+	Qual informações dos produtos(peças) devem ser salvas?
+		Resposta: Nome, Preço, Expecificação, percentual de lucro. 
+
+	Os produtos irão conter imagens demonstrativas!
+
+	É necessário uma tela de status do produto?
+		Resposta: Sim, mostrar o status do produto: Saída do produto, a caminho, ... , integrar com correios.
+
+Serviço:
+
+	Qual informações dos serviços devem ser salvas?
+		Resposta: hora tecnica(custo por hora, pode ser um valor fixo), taxa de deslocamento, Expecificação.
+	
+
+Pagamento:
+
+	Quais serão as possibilidade de pagamento?
+		Resposta: Boleto(verificar), Paypal.
+
+	Existirá alguma forma de frete? Como será o cálculo?
+		Resposta: Frete Grátis.
+
+	Existirá algum prazo para efetuar o pagamento? Quanto tempo?
+		Resposta:  2 dias úteis.
+	Caso o Cliente não efetue o pagamento o que deverá ser feito?
+		Resposta: Cancelar o Pedido.
+		
+	Há necessidade de uma conta para efetuar a compra?
+		Resposta: Prescisa estar logado.
+
+Carrinho:
+
+	Produtos adicionados ao carrinho são salvos neste, mesmo após o retorno ao site?
+		Resposta: Manter o dados adicionados no carrinho até que seja excluido.
+
+	O Carrinho possui limite de Itens?
+		Resposta: Não.
+
+Lista De Desejos:
+
+	Todas as promoções da lista do cliente devem ser enviadas para o e-mail do mesmo?
+		Resposta: Sim.
+
+	Existe Limite máximo de produtos que podem ser adicionados?
+		Resposta: Não.
+
+	Enviar e-mail promocionais de produtos relacionados aos produtos da lista do cliente?
+		Resposta: Não.
+
+
+Questões Elementares:
+
+	Nome do e-commerce?
+		Resposta: Haroldo online.
+
+	Quais informações devem aparecer na tela inicial do site?
+		Resposta: Promoções, mais procurados, novidades.
+
+	Existirá alguma interface que auxilie o usuário se "encontrar" no site?
+		Resposta: Sim.
+
+
+
+

@@ -1,0 +1,40 @@
+<h1>Categoria</h1>
+
+<a href="/admin/categoria/create" class="btn btn-primary">Nova Categoria</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                id
+            </th>
+            <th>
+                descrição
+            </th>
+            <th>
+                Editar
+            </th>
+            <th>
+                Remover
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($categorias as $categoria) { ?>
+            <tr>
+                <td>
+                    <?= $categoria->id ?>
+                </td>
+                <td>
+                    <?= $categoria->nome ?>
+                </td>
+                <td>
+                    <a href="/admin/categoria/update/id/<?= $categoria->id; ?>"><i class="glyphicon glyphicon-edit"></i></a>
+                </td>
+                <td>
+                    <a href="/admin/categoria/delete/id/<?= $categoria->id; ?>"><i class="glyphicon glyphicon-trash"></i></a>
+                </td>
+            </tr>
+        <?php } ?>
+    </tbody>
+</table>
