@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<html lang="pt-br">
+	<head>
+		<title>Cliente</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form action="NovoCliente.html" >
+			<input type="submit" class="btn btn-primary" value="Novo Cliente"/>
+		</form>
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<td>Ações</td>
+					<td>Código</td>
+					<td>Cliente</td>
+                    <td>Email</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<a href="EditarCliente.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>01</td>
+					<td>Cliente 01</td>
+                    <td>cliente01@email.com</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="EditarCliente.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>02</td>
+					<td>Cliente 02</td>
+                    <td>cliente02@email.com</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="EditarCliente.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>03</td>
+					<td>Cliente 03</td>
+                    <td>cliente03@email.com</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="EditarCliente.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>04</td>
+					<td>Cliente 04</td>
+                    <td>cliente04@email.com</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
+
+<script>
+function alert(){
+	confirm('Deseja Excluir Este Cliente?');
+}
+</script>

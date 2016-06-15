@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<html lang="pt-br">
+	<head>
+		<title>Categorias</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form action="NovaCategoria.html" >
+			<input type="submit" class="btn btn-primary" value="Nova Categoria"/>
+		</form>
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<td>Ações</td>
+					<td>Código</td>
+					<td>Nome</td>
+                </tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<a href="EditarCategoria.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>01</td>
+					<td>Categoria 01</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="EditarCategoria.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>02</td>
+					<td>Categoria 02</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="EditarCategoria.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>03</td>
+					<td>Categoria 03</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="EditarCategoria.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>04</td>
+					<td>Categoria 04</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
+
+<script>
+function alert(){
+	confirm('Deseja Excluir Esta Categoria?');
+}
+</script>

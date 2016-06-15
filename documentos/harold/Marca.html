@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<html lang="pt-br">
+	<head>
+		<title>Marca</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form action="NovaMarca.html" >
+			<input type="submit" class="btn btn-primary" value="Nova Marca"/>
+		</form>
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<td>Ações</td>
+					<td>Código</td>
+					<td>Marca</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<a href="EditarMarca.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>01</td>
+					<td>Marca 01</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="EditarMarca.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>02</td>
+					<td>Marca 02</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="EditarMarca.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>03</td>
+					<td>Marca 03</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="EditarMarca.html"><i class="glyphicon glyphicon-edit"></i></a>
+						<a href="#" onclick="alert()"><i class="glyphicon glyphicon-trash"></i></a>
+					</td>
+					<td>04</td>
+					<td>Marca 04</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
+
+<script>
+function alert(){
+	confirm('Deseja Excluir Esta Marca?');
+}
+</script>
